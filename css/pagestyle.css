@@ -11,7 +11,6 @@ and open the template in the editor.
 * {
 padding: 0;
 margin: 0;
-font-family: arial;
 }
 html {
 height: 100%;
@@ -61,11 +60,11 @@ font-weight: bold;
     border-radius: 50px;
     display: inline-block;
 }
-.wrapper {
+/*.wrapper {
 height: auto !important;
 min-height:100%;
 height: 100%;
-width: 1000px;
+width: 1280px;
 margin: auto;
 background: gray;
 }
@@ -78,21 +77,22 @@ width: 1000px;
 height: 25px;
 margin: -25px auto 0;
 background: red;
-}
+}*/
 .menu-wrapper {
 background: #1a1a1a;
 width: 100%;
 position: fixed;
+z-index: 1000;
 top: 0;
 left: 0;
 right: 0;
 }
 .menu-wrapper1 {
-width: 1000px;
+width: 1280px;
 height: 20px;
 margin: 0 auto;
 text-align: center;
-padding: 30px 0;
+padding: 50px 0;
 }
 .menu-wrapper1 .fa-times, .menu-wrapper1 .fa-bars {
     display: none;
@@ -103,13 +103,13 @@ padding: 30px 0;
 }
 .logo {
 float: left;
-margin-top: -4px;
+margin-top: -12px;
 }
 .menu-phone {
 float: right;
 color: white;
-letter-spacing: 0.8px;
-font-size: 90%;
+letter-spacing: 2px;
+font-size: 130%;
 }
 .menu {
     display: inline-block;
@@ -251,7 +251,7 @@ font-size: 90%;
 .block#block7 .slider .next-slide {
 }
 .block#block7 .slide-window {
-    width: 100vw;
+    width: 100%;
     height: 40vw;
     overflow: hidden;
 }
@@ -357,10 +357,20 @@ font-size: 90%;
     background-size: cover;
     background-position: center center;
 }
+.block#block9 .foot-phone {
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.block#block9 a {
+    color: white;
+    text-decoration: none;
+}
+.block#block9 a:hover {
+    text-decoration: underline;
+}
 
 
-
-@media (max-width: 960px) {
+@media (max-width: 1280px) {
 .menu-wrapper1 {
     padding: 10px 0;
     height: auto;
