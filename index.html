@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
 <head>
@@ -12,8 +11,11 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/pagestyle.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
     <script src="js/jquery-3.2.0.min.js" type="text/javascript"></script>
     <script src="js/pagescript.js" type="text/javascript"></script>
+    
 </head>
 <body>
     <div class="menu-wrapper">
@@ -75,36 +77,78 @@
     </table>
     <div class="block" id="block3">
         <h1>что входит в услуги<br />организации свадьбы?</h1>
-        <table><tr>
-            <td>концепция</td>
-            <td>площадка</td>
-            <td>персонал</td>
-            <td>дизайн</td>
-            <td>кухни и бар</td>
-            <td>тайминг</td>
-        </tr></table>
+        <div class="table slider-menu"><div class="tr">
+            <div class="td">концепция</div>
+            <div class="td">площадка</div>
+            <div class="td">персонал</div>
+            <div class="td">дизайн</div>
+            <div class="td">кухни и бар</div>
+            <div class="td">тайминг</div>
+        </div></div>
+        <div class="slider single-item">
+            <div class="table"><div class="tr">
+                <div class="td img"></div>
+                <div class="td description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            </div></div>
+            <div class="table"><div class="tr">
+                <div class="td img"></div>
+                <div class="td description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            </div></div>
+            <div class="table"><div class="tr">
+                <div class="td img"></div>
+                <div class="td description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            </div></div>
+            <div class="table"><div class="tr">
+                <div class="td img"></div>
+                <div class="td description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            </div></div>
+            <div class="table"><div class="tr">
+                <div class="td img"></div>
+                <div class="td description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            </div></div>
+        </div>
     </div>
     <div class="block callback" id="block4">
         <h1>Задай нам вопрос</h1>
         <table>
             <tr>
-                <td><input type="text" value="ваше имя*" /></td>
-                <td><input type="text" value="планируемое мероприятие" /></td>
+                <td><input type="text" class="person" value="ваше имя*" /></td>
+                <td><input type="text" class="event" value="планируемое мероприятие" /></td>
             </tr>
             <tr>
-                <td><input type="text" value="ваш e-mail*" /></td>
-                <td><input type="text" value="ваш телефон*" /></td>
+                <td><input type="text" class="mail" value="ваш e-mail*" /></td>
+                <td><input type="text" class="phone" value="ваш телефон*" /></td>
             </tr>
-            <tr><td colspan="2"><textarea>задайте вопрос*</textarea></td></tr>
+            <tr><td colspan="2"><textarea class="edit">задайте вопрос*</textarea></td></tr>
 <tr><td colspan="2"><input type="submit" value="задать вопрос" /></td></tr>
         </table>
     </div>
     <div class="block" id="block5">
         <h1>посмотри<br />наше портфолио</h1>
+        <div class="table">
+            <div class="tr">
+                <div class="td">
+                    <img src="img/photos/1.png" />
+                    <img src="img/photos/4.png" />
+                    <img src="img/photos/7.png" />
+                </div>
+                <div class="td">
+                    <img src="img/photos/2.png" />
+                    <img src="img/photos/5.png" />
+                    <img src="img/photos/8.png" />
+                </div>
+                <div class="td">
+                    <img src="img/photos/3.png" />
+                    <img src="img/photos/6.png" />
+                    <img src="img/photos/9.png" />
+                </div>
+            </div>
+        </div>
+        <a href="#" class="button view">смотреть полностью</a>        
     </div>
     <div class="block block-table" id="block6">
         <h1>пакеты услуг</h1>
-        <div class="table">
+        <div class="table sand">
             <div class="tr">
                 <div class="td w50">
                     <div class="block-img" id="b61"></div>
@@ -116,7 +160,7 @@
                 </div>
             </div>
         </div>
-        <div class="table rtl">
+        <div class="table rtl peach">
              <div class="tr">
                 <div class="td w50">
                     <div class="block-img" id="b62"></div>
@@ -128,7 +172,7 @@
                 </div>
             </div>
         </div>
-        <div class="table">
+        <div class="table gray">
             <div class="tr">
                 <div class="td w50">
                     <div class="block-img" id="b63"></div>
@@ -140,7 +184,7 @@
                 </div>
             </div>
         </div>
-        <div class="table rtl">
+        <div class="table rtl pink">
             <div class="tr">
                 <div class="td w50">
                     <div class="block-img" id="b64"></div>
@@ -155,10 +199,7 @@
     </div>
     <div class="block" id="block7">
         <h1>Отзывы наших клиентов</h1>
-        <div class="slider">
-            <div class="prev-slide"></div>
-            <div class="next-slide"></div>
-            <div class="slide-window">
+        <div class="slider multiple-items">
                 <div class="slide">
                     <div class="slide-img b71"></div>
                     <div class="slide-h1 description">Lorem Ipsum</div>
@@ -189,21 +230,20 @@
                     <div class="slide-h1 description">Lorem Ipsum</div>
                     <div class="slide-p description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                 </div>
-            </div>
         </div>
     </div>
     <div class="block callback" id="block8">
         <h1>Задай нам вопрос</h1>
         <table>
             <tr>
-                <td><input type="text" value="ваше имя*" /></td>
-                <td><input type="text" value="планируемое мероприятие" /></td>
+                <td><input type="text" value="ваше имя*" class="person" /></td>
+                <td><input type="text" value="планируемое мероприятие" class="event" /></td>
             </tr>
             <tr>
-                <td><input type="text" value="ваш e-mail*" /></td>
-                <td><input type="text" value="ваш телефон*" /></td>
+                <td><input type="text" value="ваш e-mail*" class="mail" /></td>
+                <td><input type="text" value="ваш телефон*" class="phone" /></td>
             </tr>
-            <tr><td colspan="2"><textarea>задайте вопрос*</textarea></td></tr>
+            <tr><td colspan="2"><textarea class="edit">задайте вопрос*</textarea></td></tr>
             <tr><td colspan="2"><input type="submit" value="задать вопрос" /></td></tr>
         </table>
     </div>
@@ -223,5 +263,6 @@
         </div>
         <div class="b9logo"></div>
     </div>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 </body>
 </html>
