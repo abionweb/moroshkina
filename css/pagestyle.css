@@ -386,6 +386,7 @@ font-size: 130%;
     padding-bottom: 56%;
     margin-bottom: 10%;
     background-size: cover;
+    background-position: center center;
 }
 .block#block7 .slide .slide-img.b71 {
     background-image: url('../img/b71.png');
